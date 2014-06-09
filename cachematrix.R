@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
         x <<- p_x
         inv <<- NULL
     }
-    get <- function(){
+    get <- function()¶{
         x
     }
     setinv <- function(p_inv){
